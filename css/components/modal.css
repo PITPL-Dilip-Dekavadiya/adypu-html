@@ -1,0 +1,50 @@
+.model-fixd-theme .modal-content {
+    border-radius: 0;
+    border: 1px solid #707070;
+    background: #ffffff;
+    position: relative;
+}
+.model-fixd-theme .modal-content .modal-header {
+    padding: 42px 42px 15px 42px;
+    border: 0;
+}
+.model-fixd-theme .modal-content .modal-header h4 {
+    color: #b82426;
+}
+.model-fixd-theme .modal-content .modal-header .btn-close {
+    right: 0;
+    top: 0;
+    position: absolute;
+    border: 1px solid #707070;
+    border-radius: 0;
+    margin: 0;
+    padding: 12px;
+    color: #707070;
+}
+.model-fixd-theme .modal-content .modal-body {
+    padding: 15px 42px 42px 42px;
+    border: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+    .model-fixd-theme .modal-content .modal-header {
+        padding: 42px 30px 15px 30px;
+    }
+    .model-fixd-theme .modal-content .modal-body {
+        padding: 15px 30px 42px 30px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .model-fixd-theme .modal-content .modal-header {
+        padding: 42px 21px 15px 21px;
+    }
+    .model-fixd-theme .modal-content .modal-body {
+        padding: 15px 21px 42px 21px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .two-btn-con .btn {
+        width: 100%;
+        margin: 3px auto;
+    }
+}

@@ -1,0 +1,257 @@
+.header-con {
+    background-color: #ffffff;
+    z-index: 9;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.0509803922);
+}
+
+.header-menu-top-con {
+    background: #b82426;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header-menu-bottom-con {
+    background: #ffffff;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+}
+
+.header-menu-top-ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.school-nav .header-menu-top-ul, .school-nav .header-menu-bottom-ul {justify-content: end;}
+.header-menu-top-ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    display: inline-block;
+}
+.header-menu-top-ul ul li {
+    margin: 0;
+    padding: 0 15px;
+    list-style: none;
+    width: auto;
+    display: inline-block;
+}
+.header-menu-top-ul ul li:first-child {
+    padding-left: 0;
+}
+.header-menu-top-ul ul li:last-child {
+    padding-right: 0;
+}
+.header-menu-top-ul ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+    padding: 15px 0;
+    width: auto;
+    display: inline-block;
+}
+
+.header-menu-bottom-ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 21px;
+}
+.header-menu-bottom-ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    display: inline-block;
+}
+.header-menu-bottom-ul ul li {
+    margin: 0;
+    padding: 0 15px;
+    list-style: none;
+    width: auto;
+    display: inline-block;
+}
+.school-nav .header-menu-bottom-ul ul li {position: relative;}
+.school-nav .sub-menu-con {min-width: 200px; left: -15px !important;}
+.school-nav .sub-menu-ul {padding: 0 30px; }
+.school-nav .header-menu-bottom-ul .sub-menu-ul ul li a {color:#4D4D4D; padding: 0 0 10px;}
+.header-menu-bottom-ul ul li:first-child {
+    padding-left: 0;
+}
+.header-menu-bottom-ul ul li:last-child {
+    padding-right: 0;
+}
+.header-menu-bottom-ul ul li a {
+    color: #000000;
+    font-size: 18px;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+    padding: 15px 0;
+    width: auto;
+    display: inline-block;
+}
+
+.header-menu-bottom-ul .sub-menu-ul {
+    position: relative;
+    width: 100%;
+}
+.header-menu-bottom-ul .sub-menu-ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+}
+.header-menu-bottom-ul .sub-menu-ul ul li {
+    margin: 0;
+    padding: 4px 0;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+}
+.header-menu-bottom-ul .sub-menu-ul ul li:first-child {
+    padding-top: 0;
+}
+.header-menu-bottom-ul .sub-menu-ul ul li:last-child {
+    padding-bottom: 0;
+}
+.header-menu-bottom-ul .sub-menu-ul ul li a {
+    color: #000000;
+    font-size: 14px;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.sub-menu-con {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: inherit;
+    border-radius: 0;
+    margin-top: -2px !important;
+    padding: 21px 0;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.sub-menu-con h6 {
+    font-family: "Inter", sans-serif;
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar-expand-xl .navbar-collapse {
+        display: none !important;
+    }
+    .header-con {
+        background-color: #ffffff;
+        z-index: 9;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.0509803922);
+    }
+    .header-con .navbar-brand {
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 280px;
+        display: inline-block;
+        padding: 0;
+        z-index: 9;
+        height: 102px;
+    }
+    .school-nav.header-con .navbar-brand { left: auto; right: auto;}
+    .header-con .navbar-brand .logo-con {
+        background: #ffffff;
+        border: 0.5px solid #edebeb;
+        text-align: center;
+        margin: 0 auto;
+        width: auto;
+        display: inline-block;
+        padding: 15px 30px;
+        height: 100%;
+    }
+    .header-con .navbar-brand .logo-con img {
+        width: 220px;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .school-nav.header-con .navbar-brand {width: auto;}
+    .school-nav.header-con .navbar-brand .logo-con img {height: 64px; width: auto;}
+}
+@media only screen and (max-width: 1199px) {
+    .menu-header-desk {
+        display: none;
+    }
+    .navbar-brand {
+        padding: 15px;
+        margin: 0;
+    }
+    .navbar-brand img {
+        width: 180px;
+        max-width: 100%;
+    }
+    header .navbar .navbar-toggler {
+        background: none !important;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin-right: 15px;
+    }
+    .respons-menu-con {
+        position: absolute;
+        left: 0;
+        background: #b82426;
+        width: 100%;
+        top: 84px;
+        padding-top: 0;
+        right: 0;
+    }
+    .respons-menu-ul {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        overflow-x: hidden;
+        z-index: 9;
+        position: relative;
+        border: 0;
+        height: calc(100vh - 84px);
+    }
+    .respons-menu-ul ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+    }
+    .respons-menu-ul ul li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+    }
+    .respons-menu-ul ul li a {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: normal;
+        font-family: "Inter", sans-serif;
+        padding: 15px;
+        width: 100%;
+        display: inline-block;
+        border-bottom: 1px solid #fff;
+    }
+}

@@ -1,0 +1,377 @@
+body {
+    color: #000000;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1399px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    body {
+        font-size: 12px;
+    }
+}
+p,
+.p {
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1399px) {
+    p,
+    .p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    p,
+    .p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    p,
+    .p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    p,
+    .p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    p,
+    .p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+.section-padding {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+@media only screen and (max-width: 1399px) {
+    .section-padding {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .section-padding {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .section-padding {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .section-padding {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+h1,
+.h1 {
+    color: #000000;
+    font-size: 54px;
+    line-height: normal;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-family: "Inria Serif", serif;
+}
+
+@media only screen and (max-width: 1399px) {
+    h1,
+    .h1 {
+        font-size: 54px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h1,
+    .h1 {
+        font-size: 48px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h1,
+    .h1 {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h1,
+    .h1 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h1,
+    .h1 {
+        font-size: 30px;
+    }
+}
+h2,
+.h2 {
+    color: #000000;
+    font-size: 48px;
+    line-height: normal;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-family: "Inria Serif", serif;
+}
+
+@media only screen and (max-width: 1399px) {
+    h2,
+    .h2 {
+        font-size: 48px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h2,
+    .h2 {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h2,
+    .h2 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h2,
+    .h2 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h2,
+    .h2 {
+        font-size: 27px;
+    }
+}
+h3,
+.h3 {
+    color: #000000;
+    font-size: 42px;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Inria Serif", serif;
+}
+
+@media only screen and (max-width: 1399px) {
+    h3,
+    .h3 {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h3,
+    .h3 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h3,
+    .h3 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h3,
+    .h3 {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h3,
+    .h3 {
+        font-size: 24px;
+    }
+}
+h4,
+.h4 {
+    color: #000000;
+    font-size: 36px;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Inria Serif", serif;
+}
+
+@media only screen and (max-width: 1399px) {
+    h4,
+    .h4 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h4,
+    .h4 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h4,
+    .h4 {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h4,
+    .h4 {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h4,
+    .h4 {
+        font-size: 21px;
+    }
+}
+h5,
+.h5 {
+    color: #000000;
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Inria Serif", serif;
+}
+
+@media only screen and (max-width: 1399px) {
+    h5,
+    .h5 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h5,
+    .h5 {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h5,
+    .h5 {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h5,
+    .h5 {
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h5,
+    .h5 {
+        font-size: 20px;
+    }
+}
+h6,
+.h6 {
+    color: #000000;
+    font-size: 27px;
+    line-height: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: "Inria Serif", serif;
+}
+
+@media only screen and (max-width: 1399px) {
+    h6,
+    .h6 {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h6,
+    .h6 {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h6,
+    .h6 {
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h6,
+    .h6 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h6,
+    .h6 {
+        font-size: 18px;
+    }
+}
+.tag-span-con h1 span {
+    color: #b82426;
+    font-weight: 300;
+}
+.tag-span-con h2 span {
+    color: #b82426;
+    font-weight: 300;
+}
+.tag-span-con h3 span {
+    color: #b82426;
+    font-weight: 300;
+}
+.tag-span-con h4 span {
+    color: #b82426;
+    font-weight: 300;
+}
+.tag-span-con h5 span {
+    color: #b82426;
+    font-weight: 300;
+}
+.tag-span-con h6 span {
+    color: #b82426;
+    font-weight: 300;
+}
