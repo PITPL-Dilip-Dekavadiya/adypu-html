@@ -1,0 +1,136 @@
+.btn-title-text-ul {
+    position: relative;
+}
+.btn-title-text-ul ul {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.btn-title-text-ul ul li {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 24px 0;
+    border-bottom: 1px solid #707070;
+}
+.btn-title-text-ul ul li:last-child {
+    border-bottom: 0;
+}
+.btn-title-text-full {
+    width: 100%;
+    display: inline-block;
+}
+.btn-title-text-left {
+    width: 150px;
+    float: left;
+    background-color: #b82426;
+    text-align: center;
+    padding: 15px 15px;
+    color: #ffffff;
+}
+.btn-title-text-left h6 {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+.btn-title-text-right {
+    width: calc(100% - 150px);
+    float: left;
+    padding-left: 15px;
+}
+.btn-title-text-right h6 {
+    color: #a72825;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+}
+.btn-title-text-right h6 a {
+    color: #a72825;
+}
+.btn-title-text-right p {
+    margin-bottom: 0;
+}
+ul.border-list {
+    list-style-type: disc;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+ul.border-list li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+ul.border-list li:last-child {
+    border-bottom: 0;
+}
+ul.border-list-arrow {
+    margin-left: 0px;
+}
+ul.border-list-arrow li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 25px;
+}
+ul.border-list-arrow li:last-child {
+    margin-bottom: 0;
+}
+ul.border-list-arrow li:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    font-size: 22px;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+ul.red-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.red-links li {
+    color: #b82426;
+    font-family: "Inria Serif", serif;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+ul.red-links li a {
+    color: #b82426;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.two-box-video-con ul.border-list li {
+    color: #fff !important;
+}
+.red {
+    color: #b82426;
+}
+@media only screen and (max-width: 1399px) {
+    .btn-title-text-ul ul li {
+        padding: 18px 0;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .btn-title-text-ul ul li {
+        padding: 14px 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .btn-title-text-ul ul li {
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .btn-title-text-left {
+        width: 120px;
+    }
+    .btn-title-text-right {
+        width: calc(100% - 120px);
+    }
+}

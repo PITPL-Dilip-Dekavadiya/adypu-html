@@ -1,0 +1,71 @@
+.table-fixd-con .table {
+    background: #f0f0f0;
+}
+
+.table-fixd-con .table thead tr th {
+    padding: 17px !important;
+}
+
+.table-fixd-con .table tbody tr td {
+    padding: 17px !important;
+}
+
+.table-bordered {
+    border-color: #707070;
+}
+
+.table-title {
+    background-color: #b82426;
+    padding: 15px;
+}
+.table-title h5 {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.phd-table th {
+    font-size: 26px;
+}
+.phd-table .col-1 {
+    width: 21%;
+}
+.phd-table .col-2,
+.phd-table .col-3 {
+    width: 21%;
+}
+.phd-table tr th,
+.phd-table tr td {
+    padding: 15px 10px;
+}
+.phd-table td h6 {
+    font-size: 18px;
+}
+.phd-table td p {
+    padding-left: 20px;
+    position: relative;
+}
+.phd-table td p:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    top: 10px;
+    left: 0;
+    position: absolute;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .phd-table td h6 {
+        font-size: 16px;
+    }
+    .phd-table th {
+        font-size: 20px;
+    }
+    .phd-table .col-1 {
+        min-width: 120px;
+    }
+    .phd-table .col-2,
+    .phd-table .col-3 {
+        min-width: 200px;
+    }
+}

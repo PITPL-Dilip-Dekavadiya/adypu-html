@@ -1,0 +1,150 @@
+.page-banner-con {
+    position: relative;
+    background-color: #f7f7f7;
+    height: 480px;
+    overflow: hidden;
+}
+
+.page-banner-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.page-banner-img:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.page-banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page-banner-con .container {
+    position: relative;
+    z-index: 5;
+}
+
+.page-banner-text h2,
+.page-banner-text .link-text-icon,
+.page-banner-text .link-text-icon:after {
+    color: #ffffff;
+}
+.page-banner-text h2{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.video-banner-con {
+    width: 100%;
+    height: calc(100vh - 108px);
+    overflow: hidden;
+}
+
+.video-banner-box {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    z-index: 3;
+}
+
+.video-banner-box video {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.video-banner-link-box {
+    background-color: #ffffff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+.video-banner-link-col {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.video-banner-link-col-bg {
+    background-color: #b82426;
+}
+
+.video-banner-link-col p {
+    width: 100%;
+    margin: 0;
+}
+
+.video-banner-link-col a {
+    width: 100%;
+    display: inline-block;
+    color: #000000;
+    padding: 25px 15px;
+    font-size: 20px;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.video-banner-link-col-bg a {
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 1399px) {
+    .page-banner-con {
+        height: 440px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .page-banner-con {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .page-banner-con {
+        height: 360px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-banner-con {
+        height: 280px;
+    }
+    .video-banner-con {
+        height: auto;
+    }
+    .video-banner-link-box {
+        position: relative;
+    }
+    .video-banner-link-box .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    .video-banner-link-col a {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .page-banner-con {
+        height: 220px;
+    }
+}
