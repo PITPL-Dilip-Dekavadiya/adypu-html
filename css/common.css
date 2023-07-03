@@ -102,6 +102,12 @@ hr {
 .gray-dark-bg {
     background-color: #E6E6E6;
 }
+.text-color{
+    color: #4d4d4d !important;
+}
+.inter-font{
+    font-family: "Inter", sans-serif !important;
+}
 @media only screen and (max-width: 1199px) {
     /*navbar-toggler-icon*/
     .navbar-toggler-icon label {

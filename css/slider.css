@@ -66,6 +66,12 @@
     display: flex;
     align-items: center;
 }
+.logo-slider .slick-prev{
+    left: 0;
+}
+.logo-slider .slick-next {
+    right: 0;
+}
 @media only screen and (max-width: 1199px) {
     .community-life-slider-text h1 {
         font-size: 36px;
