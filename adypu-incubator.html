@@ -562,7 +562,7 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="tag-span-con">
-                                <h2> Location</h2>
+                                <h2>Location</h2>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-8">
@@ -782,7 +782,10 @@
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-8">
                             <div class="text-con">
-                                <h5 class="inter-font white-txt"> Set your ideas alight <br /> Move up from ideation to incubation  </h5>
+                                <h5 class="inter-font white-txt">
+                                    Set your ideas alight <br />
+                                    Move up from ideation to incubation
+                                </h5>
                                 <p>
                                     The ADYPU Incubator provides a host of services to help our ventures succeed at the very earliest stages. The convenient, collaborative, and entrepreneurial environment will help you grow your company.
                                     With shared services, common facilities, and access to strategic enablers you will have a jump start on success.
@@ -860,7 +863,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-8 py-5">
-                            <h1 class="white-txt">Are you ready to turn your idea into something big?</h2>
+                            <h1 class="white-txt">Are you ready to turn your idea into something big?</h1>
                             <h6 class="white-txt">Join in to kick-start your idea.</h6>
                         </div>
                     </div>
@@ -873,7 +876,10 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="tag-span-con">
-                                <h3> For <br />  <span>Students</span> </h3>
+                                <h3>
+                                    For <br />
+                                    <span>Students</span>
+                                </h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-8">
@@ -920,7 +926,10 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="tag-span-con">
-                                <h3> Entry Level <br />  Program </h3>
+                                <h3>
+                                    Entry Level <br />
+                                    Program
+                                </h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-8">
@@ -948,7 +957,10 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9">
                                         <div class="tag-span-con">
-                                            <h3> Advanced <br />  <span>Programs</span> </h3>
+                                            <h3>
+                                                Advanced <br />
+                                                <span>Programs</span>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -1021,7 +1033,10 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-4 align-self-center">
                             <div class="title-con">
-                                <h3> The Evaluation <br />  goes through </h3>
+                                <h3>
+                                    The Evaluation <br />
+                                    goes through
+                                </h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-8">
@@ -1059,7 +1074,10 @@
                     <div class="row gx-5">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="tag-span-con">
-                                <h3>  During stage 1 and stage 2, <br /> <span>we look for</span>  </h3>
+                                <h3>
+                                    During stage 1 and stage 2, <br />
+                                    <span>we look for</span>
+                                </h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -1220,7 +1238,8 @@
                                         </p>
                                         <p>His goal is to nurture intrapreneurs and entrepreneurs surround themselves with a great team so that they can be leaders in their domains. He is an alumni of NITK.</p>
                                         <p>For more information about ADYPU Incubator contact:</p>
-                                        <p> <strong> Mr. Praveen Desai </strong> <br />
+                                        <p>
+                                            <strong> Mr. Praveen Desai </strong> <br />
                                             Incubator Manager <br />
                                             +91-7760603616 <br />
                                             <a href="mailto:Praveen.desai@adypu.edu.in" class="text-color">praveen.desai@adypu.edu.in</a>
@@ -1329,64 +1348,5 @@
         <script src="js/jquery.fancybox.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/custome.js"></script>
-        <script>
-            $(".tab_content").hide();
-
-            $(".tab_content:first").show();
-
-            /* if in tab mode */
-
-            $("ul.tabs li").click(function () {
-                $(".tab_content").hide();
-
-                var activeTab = $(this).attr("rel");
-
-                $("#" + activeTab).fadeIn();
-
-                $("ul.tabs li").removeClass("active");
-
-                $(this).addClass("active");
-
-                $(".tab_drawer_heading").removeClass("d_active");
-
-                $(".tab_drawer_heading[rel^='" + activeTab + "']").addClass("d_active");
-
-                /*$(".tabs").css("margin-top", function(){ 
-        
-             return ($(".tab_container").outerHeight() - $(".tabs").outerHeight() ) / 2;
-        
-             });*/
-            });
-
-            $(".tab_container").css("min-height", function () {
-                return $(".tabs").outerHeight() + 50;
-            });
-
-            /* if in drawer mode */
-
-            $(".tab_drawer_heading").click(function () {
-                $(".tab_content").hide();
-
-                var d_activeTab = $(this).attr("rel");
-
-                $("#" + d_activeTab).fadeIn();
-
-                $(".tab_drawer_heading").removeClass("d_active");
-
-                $(this).addClass("d_active");
-
-                $("ul.tabs li").removeClass("active");
-
-                $("ul.tabs li[rel^='" + d_activeTab + "']").addClass("active");
-            });
-
-            /* Extra class "tab_last"
-        
-         to add border to bottom side
-        
-         of last tab 
-        
-         $('ul.tabs li').last().addClass("tab_last");*/
-        </script>
     </body>
 </html>

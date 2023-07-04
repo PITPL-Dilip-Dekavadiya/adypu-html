@@ -1,0 +1,61 @@
+.breadcrumb-con {
+    position: relative;
+    background-color: #f0f0f0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.breadcrumb-ul {
+    width: 100%;
+    position: relative;
+}
+.breadcrumb-ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.breadcrumb-ul ul li {
+    margin: 6px auto;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+}
+.breadcrumb-ul ul li a {
+    color: #000000;
+    font-weight: 400;
+    position: relative;
+}
+.breadcrumb-ul ul li a:hover {
+    color: #000000;
+}
+.breadcrumb-ul ul li a::after {
+    content: "\f105";
+    font-family: "FontAwesome";
+    margin: 0 8px;
+    color: #b82426;
+}
+.breadcrumb-ul ul li:last-child a::after {
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .breadcrumb-ul ul li {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .breadcrumb-ul ul li {
+        font-size: 12px;
+    }
+    .breadcrumb-con {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

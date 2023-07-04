@@ -470,7 +470,10 @@
                     <div class="row h-100 align-items-end">
                         <div class="col-sm-12">
                             <div class="page-banner-text">
-                                <h2> Gift a  <br />  Future  </h2>
+                                <h2>
+                                    Gift a <br />
+                                    Future
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -507,10 +510,18 @@
                                     <strong>Education has always been the engine of growth for societies and economies. It is the education that gives people beneficial choices and real opportunities.</strong> I t provides students with an
                                     education that gives them access to greater economic, sociological and cultural opportunities and makes a valuable contribution to the nation’s human resources.
                                 </p>
-                                <p> We are committed to address the many challenges in our country in a very systemic, educationally-based manner. <strong> We are requesting you to consider Gifting a Future to a student and eventually shaping the
-                                    future of the country. We would be incredibly honored if you choose to partner with us in such a profound way.</strong></p>
-                                <p>Through the contribution of an endowment, you can make a lasting difference in the lives of  countless young people. By providing endowment support, you will play a vital role in shaping the future of our great country. </p>
-                                <p>We sincerely appreciate your consideration of these opportunities. </p>
+                                <p>
+                                    We are committed to address the many challenges in our country in a very systemic, educationally-based manner.
+                                    <strong>
+                                        We are requesting you to consider Gifting a Future to a student and eventually shaping the future of the country. We would be incredibly honored if you choose to partner with us in such a profound
+                                        way.
+                                    </strong>
+                                </p>
+                                <p>
+                                    Through the contribution of an endowment, you can make a lasting difference in the lives of countless young people. By providing endowment support, you will play a vital role in shaping the future of our
+                                    great country.
+                                </p>
+                                <p>We sincerely appreciate your consideration of these opportunities.</p>
                                 <div class="btn-con"><a href="javascript:void(0)" class="btn">Get a call back</a></div>
                             </div>
                         </div>
@@ -629,7 +640,10 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-11">
                             <div class="text-col">
-                                <p class="mb-0"><strong class="primary-color">What next:</strong> Once you decide to gift by way of donation or create an endowment, our team of professionals will work closely with you to help define the features of your donation to meet both your wishes and the needs of group institutions. Please feel free to contact us.</p>
+                                <p class="mb-0">
+                                    <strong class="primary-color">What next:</strong> Once you decide to gift by way of donation or create an endowment, our team of professionals will work closely with you to help define the features of
+                                    your donation to meet both your wishes and the needs of group institutions. Please feel free to contact us.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -732,64 +746,5 @@
         <script src="js/jquery.fancybox.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/custome.js"></script>
-        <script>
-            $(".tab_content").hide();
-
-            $(".tab_content:first").show();
-
-            /* if in tab mode */
-
-            $("ul.tabs li").click(function () {
-                $(".tab_content").hide();
-
-                var activeTab = $(this).attr("rel");
-
-                $("#" + activeTab).fadeIn();
-
-                $("ul.tabs li").removeClass("active");
-
-                $(this).addClass("active");
-
-                $(".tab_drawer_heading").removeClass("d_active");
-
-                $(".tab_drawer_heading[rel^='" + activeTab + "']").addClass("d_active");
-
-                /*$(".tabs").css("margin-top", function(){ 
-         
-              return ($(".tab_container").outerHeight() - $(".tabs").outerHeight() ) / 2;
-         
-              });*/
-            });
-
-            $(".tab_container").css("min-height", function () {
-                return $(".tabs").outerHeight() + 50;
-            });
-
-            /* if in drawer mode */
-
-            $(".tab_drawer_heading").click(function () {
-                $(".tab_content").hide();
-
-                var d_activeTab = $(this).attr("rel");
-
-                $("#" + d_activeTab).fadeIn();
-
-                $(".tab_drawer_heading").removeClass("d_active");
-
-                $(this).addClass("d_active");
-
-                $("ul.tabs li").removeClass("active");
-
-                $("ul.tabs li[rel^='" + d_activeTab + "']").addClass("active");
-            });
-
-            /* Extra class "tab_last" 
-         
-          to add border to bottom side
-         
-          of last tab 
-         
-          $('ul.tabs li').last().addClass("tab_last");*/
-        </script>
     </body>
 </html>

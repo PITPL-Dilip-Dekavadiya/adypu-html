@@ -111,19 +111,127 @@ ul.red-links li a {
 .red {
     color: #b82426;
 }
+
+.la-ul-con {
+    position: relative;
+}
+.la-ul-con ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+}
+.la-ul-con ul li {
+    position: relative;
+    padding: 0 0 0 18px;
+    margin: 12px 0;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+}
+.la-ul-con ul li::before {
+    content: "\f105";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "FontAwesome";
+    color: #b82426;
+}
+.la-ul-con ul li a {
+    color: #000000;
+}
+.la-ul-con ul li a:hover {
+    color: #b82426;
+}
+.btn-list-ul {
+    width: 100%;
+    position: relative;
+}
+.btn-list-ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+}
+.btn-list-ul ul li {
+    margin: 6px 6px 6px 0;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    display: inline-block;
+}
+.btn-list-ul ul li:last-child {
+    margin-right: 0;
+}
+.btn-list-right {
+    text-align: right;
+}
+.two-box-ul {
+    position: relative;
+    margin: 0 -24px;
+}
+.two-box-ul li {
+    position: relative;
+    width: calc(50% - 48px);
+    float: left;
+    margin: 0 24px;
+}
 @media only screen and (max-width: 1399px) {
     .btn-title-text-ul ul li {
         padding: 18px 0;
+    }
+    .la-ul-con ul li {
+        font-size: 16px;
+        line-height: 21px;
+        margin: 11px 0;
     }
 }
 @media only screen and (max-width: 1199px) {
     .btn-title-text-ul ul li {
         padding: 14px 0;
     }
+    .la-ul-con ul li {
+        font-size: 15px;
+        line-height: 21px;
+        margin: 10px 0;
+    }
 }
 @media only screen and (max-width: 991px) {
     .btn-title-text-ul ul li {
         padding: 10px 0;
+    }
+    .la-ul-con ul li {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 9px 0;
+    }
+    .btn-list-right {
+        text-align: center;
+        margin: 15px auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .la-ul-con ul li {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 8px 0;
+    }
+    .two-box-ul li {
+        position: relative;
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+    .two-box-ul {
+        margin: 0 auto;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -132,5 +240,10 @@ ul.red-links li a {
     }
     .btn-title-text-right {
         width: calc(100% - 120px);
+    }
+    .la-ul-con ul li {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 7px 0;
     }
 }
