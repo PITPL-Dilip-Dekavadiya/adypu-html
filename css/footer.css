@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/footer-bg.png);
+    background-image: url(../images/footer-bg.png);
 }
 
 .footer-top-col {
@@ -52,6 +52,7 @@
 .footer-link-and-text-con p {
     color: #000000;
     margin: 0;
+    font-size: 16px;
 }
 .footer-link-and-text-con p span {
     border-bottom: 2px solid #000000;
@@ -207,7 +208,14 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
+.footer-logo-school-sm img{
+    width: 220px;
+    max-width: 100%;
+}
+.footer-logo-sm img{
+    width: 160px;
+    max-width: 100%;
+}
 @media only screen and (max-width: 1399px) {
     .copyright-text {
         font-size: 16px;
@@ -218,6 +226,9 @@
     .footer-page-menu-ul ul li a {
         font-size: 16px;
     }
+    .footer-link-and-text-con p {
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 1199px) {
     .copyright-text {
@@ -227,6 +238,9 @@
         font-size: 15px;
     }
     .footer-page-menu-ul ul li a {
+        font-size: 15px;
+    }
+    .footer-link-and-text-con p {
         font-size: 15px;
     }
 }
@@ -241,6 +255,9 @@
         width: 100%;
     }
     .footer-page-menu-ul ul li a {
+        font-size: 14px;
+    }
+    .footer-link-and-text-con p {
         font-size: 14px;
     }
 }
@@ -264,6 +281,9 @@
     .footer-page-menu-ul ul li a {
         font-size: 13px;
     }
+    .footer-link-and-text-con p {
+        font-size: 13px;
+    }
 }
 @media only screen and (max-width: 575px) {
     .copyright-text {
@@ -273,6 +293,9 @@
         font-size: 12px;
     }
     .footer-page-menu-ul ul li a {
+        font-size: 12px;
+    }
+    .footer-link-and-text-con p {
         font-size: 12px;
     }
 }

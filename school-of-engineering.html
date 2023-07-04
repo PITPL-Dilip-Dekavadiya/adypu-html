@@ -1,932 +1,995 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>ADYPU</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="" />
-        <link rel="profile" href="http://gmpg.org/xfn/11" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <link rel="icon" href="images/favicon.png " type="image/x-icon" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <header class="sticky-top">
-            <div class="container-fluid header-con school-nav p-0">
-                <nav class="navbar navbar-expand-xl p-0">
-                    <div class="container">
-                        <a class="navbar-brand" href="index.html">
-                            <span class="logo-con"><img src="images/logo-soe.png" /></span>
-                        </a>
-                        <button class="navbar-toggler navbar-toggler-icon navbar-toggler-open" type="button" data-bs-toggle="collapse" data-bs-target="#responsiveMenu">
-                            <label for="check">
-                                <input type="checkbox" id="check" />
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </label>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse respons-menu-con" id="responsiveMenu">
-                        <div class="respons-menu-ul">
-                            <ul>
-                                <li>
-                                    <a href="javascript:void(0)">Careers</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" id="rsnavbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                                    <div class="rs-sub-menu-con dropdown-menu" aria-labelledby="rsnavbarDropdown1">
-                                        <ul>
-                                            <li><a href="javascript:void(0)">Overview</a></li>
-                                            <li><a href="javascript:void(0)">Why ADYPU</a></li>
-                                            <li><a href="javascript:void(0)">Vision & Mission</a></li>
-                                            <li><a href="javascript:void(0)">SOE Milestone</a></li>
-                                            <li><a href="javascript:void(0)">News</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Academics</a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Admissions</a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Students</a>                                    
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Faculty</a>                                    
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <div class="menu-header-desk">
-                    <div class="header-menu-top-con">
-                        <div class="container">
-                            <div class="header-menu-top-ul">
-                                <ul>
-
-                                    <li>
-                                        <a href="javascript:void(0)">Careers</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">Contact Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-menu-bottom-con">
-                        <div class="container">
-                            <div class="header-menu-bottom-ul">
-                                <ul>
-                                    <li>
-                                        <a href="javascript:void(0)" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                                        <div class="sub-menu-con dropdown-menu" aria-labelledby="navbarDropdown1">
-                                            <div class="sub-menu-ul">
-                                                <ul>
-                                                    <li><a href="javascript:void(0)">Overview</a></li>
-                                                    <li><a href="javascript:void(0)">Why ADYPU</a></li>
-                                                    <li><a href="javascript:void(0)">Vision & Mission</a></li>
-                                                    <li><a href="javascript:void(0)">SOE Milestone</a></li>
-                                                    <li><a href="javascript:void(0)">News</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">Academics</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">Admissions</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">Students</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">Faculty</a>                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section>
-            <div class="container-fluid section-padding page-banner-con">
-                <div class="page-banner-img"><img src="images/banner-soe.jpg" /></div>
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-sm-12">
-                            <div class="page-banner-text">
-                                <h2 class="h3">
-                                    Always <br />
-                                    the Best
-                                </h2>
-                                <a href="javascript:;" class="link-text-icon">APPLY NOW</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-fluid section-padding primary-bg-color announcement-block">
-                <div class="container">
-                    <div class="row gx-5">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="btn-title-text-ul">
-                                <ul>
-                                    <li>
-                                        <div class="btn-title-text-full">
-                                            <div class="btn-title-text-left">
-                                                <h6>10th Jan</h6>
-                                            </div>
-                                            <div class="btn-title-text-right">
-                                                <h6 class="mb-1"><a href="javascript:void(0)">AIU Anveshan 2023 new</a></h6>
-                                                <p>Saturday, 10:00am to 5:00pm</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="btn-title-text-full">
-                                            <div class="btn-title-text-left">
-                                                <h6>7th Jan</h6>
-                                            </div>
-                                            <div class="btn-title-text-right">
-                                                <h6 class="mb-1"><a href="javascript:void(0)">Impetus 2017</a></h6>
-                                                <p>Saturday, 10:00am to 5:00pm</p>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <ul class="border-list border-list-arrow white-txt">
-                                <li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></li>
-                                <li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-fluid section-padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-4">
-                            <div class="tag-span-con">
-                                <h1>
-                                    <span>DY Patil</span><br>School of Engineering
-                                </h1>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-8">
-                            <div class="text-con">
-                                <p>Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we might yet discover and create.’ (Einstein) </p>
-                                <p>These are dynamic times. Present-day businesses operate in a very dynamic environment necessitated by fast change. Globalization, changing competitive scenarios, the advent of the service economy, inter-connected world, and knowledge explosion are all affecting businesses both positively and negatively, causing businesses to rethink the way they have been operating. Needless to say, if the way business is conducted has changed, then the way business management degree programs are taught must change as well.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-fluid section-padding pt-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="title-arrow-con">
-                                <h2>Latest at ADYPU</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="community-life-slider-con top-arrow">
-                                <div>
-                                    <div class="community-life-slider-col">
-                                        <div class="community-life-slider-full">
-                                            <div class="community-life-slider-img">
-                                                <img src="images/slider-img-1.jpg" />
-                                            </div>
-                                            <div class="community-life-slider-text">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                                <h1>ACTIVITIES</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="community-life-slider-col">
-                                        <div class="community-life-slider-full">
-                                            <div class="community-life-slider-img">
-                                                <img src="images/slider-img-2.jpg" />
-                                            </div>
-                                            <div class="community-life-slider-text">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                                <h1>EVENTS</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="community-life-slider-col">
-                                        <div class="community-life-slider-full">
-                                            <div class="community-life-slider-img">
-                                                <img src="images/slider-img-3.jpg" />
-                                            </div>
-                                            <div class="community-life-slider-text">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                                <h1>WORKSHOPS</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="community-life-slider-col">
-                                        <div class="community-life-slider-full">
-                                            <div class="community-life-slider-img">
-                                                <img src="images/slider-img-1.jpg" />
-                                            </div>
-                                            <div class="community-life-slider-text">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                                <h1>ACTIVITIES</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="community-life-slider-col">
-                                        <div class="community-life-slider-full">
-                                            <div class="community-life-slider-img">
-                                                <img src="images/slider-img-2.jpg" />
-                                            </div>
-                                            <div class="community-life-slider-text">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                                <h1>EVENTS</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="community-life-slider-col">
-                                        <div class="community-life-slider-full">
-                                            <div class="community-life-slider-img">
-                                                <img src="images/slider-img-3.jpg" />
-                                            </div>
-                                            <div class="community-life-slider-text">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                                <h1>WORKSHOPS</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--        <section>
-                    <div class="container-fluid section-padding">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="title-arrow-con mb-5">
-                                        <h6>ADYPU core features</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
-                                    <strong class="mb-2">Quality Engineering Education</strong>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                </div>
-                                <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
-                                    <strong class="mb-2">Quality Engineering Education</strong>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                </div>
-                                <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
-                                    <strong class="mb-2">Quality Engineering Education</strong>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                </div>
-                                <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
-                                    <strong class="mb-2">Quality Engineering Education</strong>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                </div>
-                                <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
-                                    <strong class="mb-2">Quality Engineering Education</strong>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                </div>
-                                <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
-                                    <strong class="mb-2">Quality Engineering Education</strong>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>-->
-
-        <section>
-            <div class="container-fluid section-padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="text-con">
-                                <h5>ADYPU core features</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="column-card-list-con">
-                                <div class="row gx-5">
-                                    <div class="col-sm-12 col-md-12 col-lg-4">
-                                        <div class="column-card-list-col">
-                                            <div class="column-card-list-left">
-                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
-                                            </div>
-                                            <div class="column-card-list-right">
-                                                <p><strong>Quality Engineering Education</strong></p>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-4">
-                                        <div class="column-card-list-col">
-                                            <div class="column-card-list-left">
-                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
-                                            </div>
-                                            <div class="column-card-list-right">
-                                                <p><strong>Inventive Engineering</strong></p>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-4">
-                                        <div class="column-card-list-col">
-                                            <div class="column-card-list-left">
-                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
-                                            </div>
-                                            <div class="column-card-list-right">
-                                                <p><strong>Curriculum</strong></p>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-4">
-                                        <div class="column-card-list-col">
-                                            <div class="column-card-list-left">
-                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
-                                            </div>
-                                            <div class="column-card-list-right">
-                                                <p><strong>Entrepreneurship</strong></p>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-4">
-                                        <div class="column-card-list-col">
-                                            <div class="column-card-list-left">
-                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
-                                            </div>
-                                            <div class="column-card-list-right">
-                                                <p><strong>Library</strong></p>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-4">
-                                        <div class="column-card-list-col">
-                                            <div class="column-card-list-left">
-                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
-                                            </div>
-                                            <div class="column-card-list-right">
-                                                <p><strong>Research</strong></p>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-fluid section-padding pt-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card-box-list-con">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex">
-                                        <div class="card-box-list-col same-box">
-                                            <div class="card-box-list-img">
-                                                <a href="javascript:void(0)"><img src="images/courses-offered-1.jpg" /></a>
-                                            </div>
-                                            <div class="card-box-list-title">
-                                                <h5><a href="javascript:void(0)">Undergraduate Study</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                <a href="javascript:;" class="link-text-icon">LEARN MORE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex">
-                                        <div class="card-box-list-col same-box">
-                                            <div class="card-box-list-img">
-                                                <a href="javascript:void(0)"> <img src="images/courses-offered-2.jpg" /></a>
-                                            </div>
-                                            <div class="card-box-list-title">
-                                                <h5><a href="javascript:void(0)">Postgraduate Study</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                <a href="javascript:;" class="link-text-icon">LEARN MORE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex">
-                                        <div class="card-box-list-col same-box">
-                                            <div class="card-box-list-img">
-                                                <a href="javascript:void(0)"> <img src="images/courses-offered-3.jpg" /></a>
-                                            </div>
-                                            <div class="card-box-list-title">
-                                                <h5><a href="javascript:void(0)">New Master Programs</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                <a href="javascript:;" class="link-text-icon">LEARN MORE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-fluid section-padding pb-0 gray-bg minus-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="text-con section-padding pb-0">
-                                <div class="row mb-3 mb-md-4 mb-lg-5">
-                                    <div class="col-sm-12 col-md-12 col-lg-12">
-                                        <div class="tag-span-con">
-                                            <h6>Placements</h6>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-5 col-lg-4">
-                                        <div class="tag-span-con">
-                                            <h3><span>Lorem Ipsum </span> Ipusm</h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-7 col-lg-8">
-                                        <div class="text-con">
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12 mt-0 mt-md-4 mb-5">
-                                        <div class="logo-slider arrow">
-                                            <div class="item">
-                                                <img src="images/conventry-university.png" />
-                                                <img src="images/conventry-university.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/nyit.png" />
-                                                <img src="images/nyit.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/uclan.png" />
-                                                <img src="images/uclan.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/south-carolina.png" />
-                                                <img src="images/south-carolina.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/uclan.png" />
-                                                <img src="images/uclan.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/conventry-university.png" />
-                                                <img src="images/conventry-university.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/nyit.png" />
-                                                <img src="images/nyit.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/uclan.png" />
-                                                <img src="images/uclan.png" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/south-carolina.png" />
-                                                <img src="images/south-carolina.png" />
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonials-slider top-arrow mt-5">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-lg-7">                                        
-                                                <div class="tag-span-con">
-                                                    <h6>What are Alumni says</h6>
-                                                </div>
-                                                <div class="tag-span-con">
-                                                    <h3>Rahul Gopa</h3>
-                                                    <p><strong>Computer Batch 2017-21</strong></p>
-                                                    <p>Studying at the Ajeenkya DY Patil University gives students an opportunity to learn from some of the best minds across industries. Our affiliations give you access to an impressive global network and a host of facilities, for a successful tomorrow.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-lg-5">
-                                                <div class="testimonial-img">
-                                                    <img src="images/rahul-gupta.jpg" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-lg-7">                                        
-                                                <div class="tag-span-con">
-                                                    <h6>What are Alumni says</h6>
-                                                </div>
-                                                <div class="tag-span-con">
-                                                    <h3>Rahul Gopa</h3>
-                                                    <p><strong>Computer Batch 2017-21</strong></p>
-                                                    <p>Studying at the Ajeenkya DY Patil University gives students an opportunity to learn from some of the best minds across industries. Our affiliations give you access to an impressive global network and a host of facilities, for a successful tomorrow.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-lg-5">
-                                                <div class="testimonial-img">
-                                                    <img src="images/rahul-gupta.jpg" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                </section>
-
-                                <section>
-                                    <div class="container-fluid gallery-list-con">
-                                        <div class="container mw-100 p-0">
-                                            <div class="row">
-                                                <div class="col-sm-12 p-0">
-                                                    <div class="gallery-list-box-con m-1">
-                                                        <div class="row">
-                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                                                                <div class="gallery-list-box-col">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-12">
-                                                                            <div class="row">
-                                                                                <div class="col-6 col-sm-6">
-                                                                                    <div class="sm-img-box-gallery box-gallery-img">
-                                                                                        <a href="images/gallery-list-img-1.jpg" data-fancybox="gallery-list-box">
-                                                                                            <img src="images/gallery-list-img-1.jpg" />
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-6 col-sm-6">
-                                                                                    <div class="sm-img-box-gallery box-gallery-img">
-                                                                                        <a href="images/gallery-list-img-2.jpg" data-fancybox="gallery-list-box">
-                                                                                            <img src="images/gallery-list-img-2.jpg" />
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-sm-12">
-                                                                            <div class="md-img-box-gallery box-gallery-img">
-                                                                                <a href="images/gallery-list-img-3.jpg" data-fancybox="gallery-list-box">
-                                                                                    <img src="images/gallery-list-img-3.jpg" />
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                                                                <div class="gallery-list-box-col">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-12">
-                                                                            <div class="md-img-box-gallery box-gallery-img">
-                                                                                <a href="images/gallery-list-img-4.jpg" data-fancybox="gallery-list-box">
-                                                                                    <img src="images/gallery-list-img-4.jpg" />
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-sm-12">
-                                                                            <div class="sm-img-box-gallery box-gallery-img">
-                                                                                <a href="images/gallery-list-img-5.jpg" data-fancybox="gallery-list-box">
-                                                                                    <img src="images/gallery-list-img-5.jpg" />
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                                                                <div class="gallery-list-box-col">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-12">
-                                                                            <div class="lg-img-box-gallery box-gallery-img">
-                                                                                <a href="images/gallery-list-img-6.jpg" data-fancybox="gallery-list-box">
-                                                                                    <img src="images/gallery-list-img-6.jpg" />
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                                                                <div class="gallery-list-box-col">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-12">
-                                                                            <div class="sm-img-box-gallery box-gallery-img">
-                                                                                <a href="images/gallery-list-img-7.jpg" data-fancybox="gallery-list-box">
-                                                                                    <img src="images/gallery-list-img-7.jpg" />
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-sm-12">
-                                                                            <div class="md-img-box-gallery box-gallery-img">
-                                                                                <a href="images/gallery-list-img-8.jpg" data-fancybox="gallery-list-box">
-                                                                                    <img src="images/gallery-list-img-8.jpg" />
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="container-fluid primary-bg-color apply-now-con">
-                                        <div class="container mw-100">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <marquee direction="left" class="list-apply-ul">
-                                                        <ul>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                            <li><a href="javascript:void(0)">Apply Now</a></li>
-                                                        </ul>
-                                                    </marquee>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <div class="entrance-test-fixd-btn">
-                                    <a href="javascript:void(0)">Entrance Test</a>
-                                </div>
-                                <div class="bottom-btn-list">
-                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#myModalApply">Apply</a>
-                                    <a href="javascript:void(0)">Chat</a>
-                                </div>
-                                <footer class="footer-con">
-                                    <div class="container-fluid footer-top-con section-padding">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-sm-12 align-self-center">
-                                                    <div class="footer-logo-con">
-                                                        <a href="index.html"><img src="images/footer-logo.png" /></a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-12 align-self-center">
-                                                    <div class="footer-link-and-text-con">
-                                                        <div class="row">
-                                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3">
-                                                                <div class="footer-top-col">
-                                                                    <p>We are a world-class university that prepares students for the global market, with a single-minded focus on fostering growth through a spirit of innovation.</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-6 col-md-3 col-lg-4 col-xl-3">
-                                                                <div class="footer-top-col">
-                                                                    <p class="bold-text mb-2"><span> Quick Links </span></p>
-                                                                    <div class="footer-page-menu">
-                                                                        <div class="footer-page-menu-ul">
-                                                                            <ul>
-                                                                                <li><a href="admissions.html">Admissions</a></li>
-                                                                                <li><a href="invite-us.html">Invite Us</a></li>
-                                                                                <li><a href="visit-campus.html">Visit Campus</a></li>
-                                                                                <li><a href="careers.html">Careers</a></li>
-                                                                                <li><a href="blog.html">Blog</a></li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-6 col-md-3 col-lg-4 col-xl-3">
-                                                                <div class="footer-top-col">
-                                                                    <p class="bold-text mb-2"><span> Office Timings </span></p>
-                                                                    <p>
-                                                                        Monday to Friday, <br />
-                                                                        9:30 am - 5:30 pm IST,<br />
-                                                                        except on public holidays
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                                                                <div class="footer-top-col">
-                                                                    <p class="bold-text mb-2">Ajeenkya DY Patil University</p>
-                                                                    <p class="mb-3">Charoli Bk.via Lohegaon, District Pune - 412105, Maharashtra , India</p>
-                                                                    <p><a href="tel:+919881199224">+91-9881199224 </a> | <a href="tel:+918169463493"> +91-8169463493 </a></p>
-                                                                    <p><a href="mailto:info@adypu.edu">info@adypu.edu</a></p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container-fluid footer-middle-con">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-sm-12 align-self-center">
-                                                    <div class="footer-newsletter-sign-up-text">
-                                                        <p><a href="javascript:void(0)"> Sign up for our newsletter </a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container-fluid footer-bottom-con">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9 align-self-center">
-                                                    <div class="copyright-text">
-                                                        2023 &copy; ADYPU. All rights reserved.
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 align-self-center">
-                                                    <div class="social-icon-con">
-                                                        <div class="social-icon-ul">
-                                                            <ul>
-                                                                <li><a href="javascript:void(0)">In</a></li>
-                                                                <li><a href="javascript:void(0)">Fb</a></li>
-                                                                <li><a href="javascript:void(0)">Tw</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </footer>
-                                <script src="js/jquery.min.js"></script>
-                                <script src="js/bootstrap.bundle.min.js"></script>
-                                <script src="js/jquery.fancybox.min.js"></script>
-                                <script src="js/slick.min.js"></script>
-                                <script src="js/custome.js"></script>
-                                </body>
-                                </html>
-                                <div class="modal fade model-fixd-theme" id="myModalApply">
-                                    <div class="modal-dialog modal-xl modal-dialog-centered">
-                                        <div class="modal-content">
-                                            <!-- Modal Header -->
-                                            <div class="modal-header">
-                                                <h4>Application Form 2023-24</h4>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                            </div>
-                                            <!-- Modal body -->
-                                            <div class="modal-body">
-                                                <div class="form-con">
-                                                    <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <label>Full Name*</label>
-                                                                <input type="text" class="form-control" placeholder="Enter Full Name" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-md-12 col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>Email ID*</label>
-                                                                <input type="email" class="form-control" placeholder="Enter Email ID" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-md-12 col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>Mobile No.*</label>
-                                                                <input type="email" class="form-control" placeholder="Enter Mobile No." />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-md-12 col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>State*</label>
-                                                                <select class="form-select form-control">
-                                                                    <option>Select State</option>
-                                                                    <option>State 1</option>
-                                                                    <option>State 2</option>
-                                                                    <option>State 3</option>
-                                                                    <option>State 4</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-md-12 col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>Level of Program*</label>
-                                                                <select class="form-select form-control">
-                                                                    <option>Select Level of Program</option>
-                                                                    <option>State 1</option>
-                                                                    <option>State 2</option>
-                                                                    <option>State 3</option>
-                                                                    <option>State 4</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-md-12 col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>School*</label>
-                                                                <select class="form-select form-control">
-                                                                    <option>Select School</option>
-                                                                    <option>State 1</option>
-                                                                    <option>State 2</option>
-                                                                    <option>State 3</option>
-                                                                    <option>State 4</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-md-12 col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>Program*</label>
-                                                                <select class="form-select form-control">
-                                                                    <option>Select Level of Program</option>
-                                                                    <option>State 1</option>
-                                                                    <option>State 2</option>
-                                                                    <option>State 3</option>
-                                                                    <option>State 4</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <label>I agree to receive information regarding my submitted application by signing up on ADYPU*</label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="btn-con two-btn-con">
-                                                                <a href="javascript:void(0)" class="btn mr-2">Register Now</a>
-                                                                <a href="javascript:void(0)" class="btn">Existing User? Login</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ADYPU</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <link rel="icon" href="images/favicon.png " type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="sticky-top">
+            <div class="container-fluid header-con school-nav p-0">
+                <nav class="navbar navbar-expand-xl p-0">
+                    <div class="container p-0">
+                        <a class="navbar-brand" href="index.html">
+                            <span class="logo-con"><img src="images/logo-soe.png" /></span>
+                        </a>
+                        <button class="navbar-toggler navbar-toggler-icon navbar-toggler-open" type="button" data-bs-toggle="collapse" data-bs-target="#responsiveMenu">
+                            <label for="check">
+                                <input type="checkbox" id="check" />
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse respons-menu-con" id="responsiveMenu">
+                        <div class="respons-menu-ul">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" id="rsnavbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                    <div class="rs-sub-menu-con dropdown-menu" aria-labelledby="rsnavbarDropdown1">
+                                        <ul>
+                                            <li><a href="javascript:void(0)">Overview</a></li>
+                                            <li><a href="javascript:void(0)">Why ADYPU</a></li>
+                                            <li><a href="javascript:void(0)">Vision & Mission</a></li>
+                                            <li><a href="javascript:void(0)">SOE Milestone</a></li>
+                                            <li><a href="javascript:void(0)">News</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" id="rsnavbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+                                    <div class="rs-sub-menu-con dropdown-menu" aria-labelledby="rsnavbarDropdown2">
+                                        <ul>
+                                            <li><a href="javascript:void(0)">Undergraduate</a></li>
+                                            <li><a href="javascript:void(0)">Postgraduate</a></li>
+                                            <li><a href="javascript:void(0)">PhD Programmes</a></li>
+                                            <li><a href="javascript:void(0)">Workshops</a></li>
+                                            <li><a href="javascript:void(0)">Conferences</a></li>
+                                            <li><a href="javascript:void(0)">Seminars</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" id="rsnavbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Admissions</a>
+                                    <div class="rs-sub-menu-con dropdown-menu" aria-labelledby="rsnavbarDropdown3">
+                                        <ul>
+                                            <li><a href="javascript:void(0)">How to apply</a></li>
+                                            <li><a href="javascript:void(0)">Eligibility for Admission</a></li>
+                                            <li><a href="javascript:void(0)">Meet the Admissions Team</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" id="rsnavbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">Students</a>
+                                    <div class="rs-sub-menu-con dropdown-menu" aria-labelledby="rsnavbarDropdown4">
+                                        <ul>
+                                            <li><a href="javascript:void(0)">Life at Campus</a></li>
+                                            <li><a href="javascript:void(0)">Students Club</a></li>
+                                            <li><a href="javascript:void(0)">IEEE Student Branch</a></li>
+                                            <li><a href="javascript:void(0)">Student Rules & Regulations</a></li>
+                                            <li><a href="javascript:void(0)">Academic Forms</a></li>
+                                            <li><a href="javascript:void(0)">Placement</a></li>
+                                            <li><a href="javascript:void(0)">Alumni</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Faculty</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="menu-header-desk">
+                    <div class="header-menu-top-con">
+                        <div class="container">
+                            <div class="header-menu-top-ul">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:void(0)">Careers</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">Contact Us</a>
+                                    </li>
+                                    <li class="pe-2">
+                                        <a href="javascript:void(0)">
+                                            <img src="images/user-icon.svg" />
+                                        </a>
+                                    </li>
+                                    <li class="ps-2">
+                                        <a href="javascript:void(0)">
+                                            <img src="images/search-icon.svg" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-menu-bottom-con">
+                        <div class="container">
+                            <div class="header-menu-bottom-ul">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:void(0)" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                        <div class="sub-menu-con dropdown-menu" aria-labelledby="navbarDropdown1">
+                                            <div class="sub-menu-ul">
+                                                <ul>
+                                                    <li><a href="javascript:void(0)">Overview</a></li>
+                                                    <li><a href="javascript:void(0)">Why ADYPU</a></li>
+                                                    <li><a href="javascript:void(0)">Vision & Mission</a></li>
+                                                    <li><a href="javascript:void(0)">SOE Milestone</a></li>
+                                                    <li><a href="javascript:void(0)">News</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+                                        <div class="sub-menu-con dropdown-menu" aria-labelledby="navbarDropdown2">
+                                            <div class="sub-menu-ul">
+                                                <ul>
+                                                    <li><a href="javascript:void(0)">Undergraduate</a></li>
+                                                    <li><a href="javascript:void(0)">Postgraduate</a></li>
+                                                    <li><a href="javascript:void(0)">PhD Programmes</a></li>
+                                                    <li><a href="javascript:void(0)">Workshops</a></li>
+                                                    <li><a href="javascript:void(0)">Conferences</a></li>
+                                                    <li><a href="javascript:void(0)">Seminars</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Admissions</a>
+                                        <div class="sub-menu-con dropdown-menu" aria-labelledby="navbarDropdown3">
+                                            <div class="sub-menu-ul">
+                                                <ul>
+                                                    <li><a href="javascript:void(0)">How to apply</a></li>
+                                                    <li><a href="javascript:void(0)">Eligibility for Admission</a></li>
+                                                    <li><a href="javascript:void(0)">Meet the Admissions Team</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">Students</a>
+                                        <div class="sub-menu-con dropdown-menu" aria-labelledby="navbarDropdown4">
+                                            <div class="sub-menu-ul">
+                                                <ul>
+                                                    <li><a href="javascript:void(0)">Life at Campus</a></li>
+                                                    <li><a href="javascript:void(0)">Students Club</a></li>
+                                                    <li><a href="javascript:void(0)">IEEE Student Branch</a></li>
+                                                    <li><a href="javascript:void(0)">Student Rules & Regulations</a></li>
+                                                    <li><a href="javascript:void(0)">Academic Forms</a></li>
+                                                    <li><a href="javascript:void(0)">Placement</a></li>
+                                                    <li><a href="javascript:void(0)">Alumni</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">Faculty</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container-fluid section-padding page-banner-con">
+                <div class="page-banner-img"><img src="images/banner-soe.jpg" /></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-sm-12">
+                            <div class="page-banner-text">
+                                <h2>
+                                    Admissions <br />
+                                    Open 2023-24
+                                </h2>
+                                <div class="link-con mt-4">
+                                    <a href="javascript:void(0)" class="link-text-icon">APPLY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid section-padding primary-bg-color announcement-block">
+                <div class="container">
+                    <div class="row gx-5">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="btn-title-text-ul">
+                                <ul>
+                                    <li>
+                                        <div class="btn-title-text-full">
+                                            <div class="btn-title-text-left">
+                                                <h6>10th Jan</h6>
+                                            </div>
+                                            <div class="btn-title-text-right">
+                                                <h6 class="mb-1">
+                                                    <a href="javascript:void(0)">AIU Anveshan 2023 <i> new </i></a>
+                                                </h6>
+                                                <p>Saturday, 10:00am to 5:00pm</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="btn-title-text-full">
+                                            <div class="btn-title-text-left">
+                                                <h6>7th Jan</h6>
+                                            </div>
+                                            <div class="btn-title-text-right">
+                                                <h6 class="mb-1"><a href="javascript:void(0)">Impetus 2017</a></h6>
+                                                <p>Saturday, 10:00am to 5:00pm</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <ul class="border-list border-list-arrow white-txt">
+                                <li>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-4">
+                            <div class="tag-span-con">
+                                <h3>
+                                    <span>DY Patil</span><br />
+                                    School of Engineering
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8">
+                            <div class="text-con">
+                                <p>Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we might yet discover and create.’ (Einstein)</p>
+                                <p>
+                                    These are dynamic times. Present-day businesses operate in a very dynamic environment necessitated by fast change. Globalization, changing competitive scenarios, the advent of the service economy,
+                                    inter-connected world, and knowledge explosion are all affecting businesses both positively and negatively, causing businesses to rethink the way they have been operating. Needless to say, if the way
+                                    business is conducted has changed, then the way business management degree programs are taught must change as well.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid section-padding pt-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-arrow-con">
+                                <h5>Latest at ADYPU</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="community-life-slider-con top-arrow">
+                                <div>
+                                    <div class="community-life-slider-col">
+                                        <div class="community-life-slider-full">
+                                            <div class="community-life-slider-img">
+                                                <img src="images/slider-img-1.jpg" />
+                                            </div>
+                                            <div class="community-life-slider-text">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                                <h1>ACTIVITIES</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="community-life-slider-col">
+                                        <div class="community-life-slider-full">
+                                            <div class="community-life-slider-img">
+                                                <img src="images/slider-img-2.jpg" />
+                                            </div>
+                                            <div class="community-life-slider-text">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                                <h1>EVENTS</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="community-life-slider-col">
+                                        <div class="community-life-slider-full">
+                                            <div class="community-life-slider-img">
+                                                <img src="images/slider-img-3.jpg" />
+                                            </div>
+                                            <div class="community-life-slider-text">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                                <h1>WORKSHOPS</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="community-life-slider-col">
+                                        <div class="community-life-slider-full">
+                                            <div class="community-life-slider-img">
+                                                <img src="images/slider-img-1.jpg" />
+                                            </div>
+                                            <div class="community-life-slider-text">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                                <h1>ACTIVITIES</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="community-life-slider-col">
+                                        <div class="community-life-slider-full">
+                                            <div class="community-life-slider-img">
+                                                <img src="images/slider-img-2.jpg" />
+                                            </div>
+                                            <div class="community-life-slider-text">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                                <h1>EVENTS</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="community-life-slider-col">
+                                        <div class="community-life-slider-full">
+                                            <div class="community-life-slider-img">
+                                                <img src="images/slider-img-3.jpg" />
+                                            </div>
+                                            <div class="community-life-slider-text">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                                <h1>WORKSHOPS</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        <section>
+         <div class="container-fluid section-padding">
+         
+             <div class="container">
+         
+                 <div class="row">
+         
+                     <div class="col-sm-12">
+         
+                         <div class="title-arrow-con mb-5">
+         
+                             <h6>ADYPU core features</h6>
+         
+                         </div>
+         
+                     </div>
+         
+                 </div>
+         
+                 <div class="row">
+         
+                     <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
+         
+                         <strong class="mb-2">Quality Engineering Education</strong>
+         
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+         
+                     </div>
+         
+                     <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
+         
+                         <strong class="mb-2">Quality Engineering Education</strong>
+         
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+         
+                     </div>
+         
+                     <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
+         
+                         <strong class="mb-2">Quality Engineering Education</strong>
+         
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+         
+                     </div>
+         
+                     <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
+         
+                         <strong class="mb-2">Quality Engineering Education</strong>
+         
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+         
+                     </div>
+         
+                     <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
+         
+                         <strong class="mb-2">Quality Engineering Education</strong>
+         
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+         
+                     </div>
+         
+                     <div class="col-md-6 col-lg-4 feature-item mb-3 mb-lg-5">
+         
+                         <strong class="mb-2">Quality Engineering Education</strong>
+         
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+         
+                     </div>
+         
+                 </div>
+         
+             </div>
+         
+         </div>
+         
+         </section>-->
+        <section>
+            <div class="container-fluid section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="text-con">
+                                <h5>ADYPU core features</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="column-card-list-con">
+                                <div class="row gx-5">
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <div class="column-card-list-col">
+                                            <div class="column-card-list-left">
+                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
+                                            </div>
+                                            <div class="column-card-list-right">
+                                                <p><strong>Quality Engineering Education</strong></p>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <div class="column-card-list-col">
+                                            <div class="column-card-list-left">
+                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
+                                            </div>
+                                            <div class="column-card-list-right">
+                                                <p><strong>Inventive Engineering</strong></p>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <div class="column-card-list-col">
+                                            <div class="column-card-list-left">
+                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
+                                            </div>
+                                            <div class="column-card-list-right">
+                                                <p><strong>Curriculum</strong></p>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <div class="column-card-list-col">
+                                            <div class="column-card-list-left">
+                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
+                                            </div>
+                                            <div class="column-card-list-right">
+                                                <p><strong>Entrepreneurship</strong></p>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <div class="column-card-list-col">
+                                            <div class="column-card-list-left">
+                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
+                                            </div>
+                                            <div class="column-card-list-right">
+                                                <p><strong>Library</strong></p>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <div class="column-card-list-col">
+                                            <div class="column-card-list-left">
+                                                <div class="circle-icon"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
+                                            </div>
+                                            <div class="column-card-list-right">
+                                                <p><strong>Research</strong></p>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid section-padding pt-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card-box-list-con card-box-list-link-fixed">
+                                <div class="row gx-5">
+                                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex">
+                                        <div class="card-box-list-col same-box">
+                                            <div class="card-box-list-img">
+                                                <a href="javascript:void(0)"><img src="images/courses-offered-1.jpg" /></a>
+                                            </div>
+                                            <div class="card-box-list-title">
+                                                <h5>Undergraduate Study</h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <a href="javascript:void(0)" class="link-text-icon">LEARN MORE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex">
+                                        <div class="card-box-list-col same-box">
+                                            <div class="card-box-list-img">
+                                                <a href="javascript:void(0)"> <img src="images/courses-offered-2.jpg" /></a>
+                                            </div>
+                                            <div class="card-box-list-title">
+                                                <h5>Postgraduate Study</h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <a href="javascript:void(0)" class="link-text-icon">LEARN MORE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex">
+                                        <div class="card-box-list-col same-box">
+                                            <div class="card-box-list-img">
+                                                <a href="javascript:void(0)"> <img src="images/courses-offered-3.jpg" /></a>
+                                            </div>
+                                            <div class="card-box-list-title">
+                                                <h5>New Master Programs</h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <a href="javascript:void(0)" class="link-text-icon">LEARN MORE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid section-padding pb-0 gray-bg minus-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="text-con section-padding pb-0">
+                                <div class="row mb-3 mb-md-4 mb-lg-5">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="tag-span-con">
+                                            <h6>Placements</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-5 col-lg-4">
+                                        <div class="tag-span-con">
+                                            <h3><span>Lorem Ipsum </span> Ipusm</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-7 col-lg-8">
+                                        <div class="text-con">
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 mt-0 mt-md-4 mb-5">
+                                        <div class="logo-slider arrow">
+                                            <div class="item">
+                                                <img src="images/conventry-university.png" />
+                                                <img src="images/conventry-university.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/nyit.png" />
+                                                <img src="images/nyit.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/uclan.png" />
+                                                <img src="images/uclan.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/south-carolina.png" />
+                                                <img src="images/south-carolina.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/uclan.png" />
+                                                <img src="images/uclan.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/conventry-university.png" />
+                                                <img src="images/conventry-university.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/nyit.png" />
+                                                <img src="images/nyit.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/uclan.png" />
+                                                <img src="images/uclan.png" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/south-carolina.png" />
+                                                <img src="images/south-carolina.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-slider top-arrow mt-5">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-7">
+                                                <div class="tag-span-con">
+                                                    <h6>What are Alumni says</h6>
+                                                </div>
+                                                <div class="tag-span-con">
+                                                    <h3>Rahul Gopa</h3>
+                                                    <p><strong>Computer Batch 2017-21</strong></p>
+                                                    <p>
+                                                        Studying at the Ajeenkya DY Patil University gives students an opportunity to learn from some of the best minds across industries. Our affiliations give you access to an impressive
+                                                        global network and a host of facilities, for a successful tomorrow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-5">
+                                                <div class="testimonial-img">
+                                                    <img src="images/rahul-gupta.jpg" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-7">
+                                                <div class="tag-span-con">
+                                                    <h6>What are Alumni says</h6>
+                                                </div>
+                                                <div class="tag-span-con">
+                                                    <h3>Rahul Gopa</h3>
+                                                    <p><strong>Computer Batch 2017-21</strong></p>
+                                                    <p>
+                                                        Studying at the Ajeenkya DY Patil University gives students an opportunity to learn from some of the best minds across industries. Our affiliations give you access to an impressive
+                                                        global network and a host of facilities, for a successful tomorrow.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-5">
+                                                <div class="testimonial-img">
+                                                    <img src="images/rahul-gupta.jpg" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid gallery-list-con">
+                <div class="container mw-100 p-0">
+                    <div class="row">
+                        <div class="col-sm-12 p-0">
+                            <div class="gallery-list-box-con m-1">
+                                <div class="row">
+                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                        <div class="gallery-list-box-col">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-6 col-sm-6">
+                                                            <div class="sm-img-box-gallery box-gallery-img">
+                                                                <a href="images/gallery-list-img-1.jpg" data-fancybox="gallery-list-box">
+                                                                    <img src="images/gallery-list-img-1.jpg" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6 col-sm-6">
+                                                            <div class="sm-img-box-gallery box-gallery-img">
+                                                                <a href="images/gallery-list-img-2.jpg" data-fancybox="gallery-list-box">
+                                                                    <img src="images/gallery-list-img-2.jpg" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="md-img-box-gallery box-gallery-img">
+                                                        <a href="images/gallery-list-img-3.jpg" data-fancybox="gallery-list-box">
+                                                            <img src="images/gallery-list-img-3.jpg" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                        <div class="gallery-list-box-col">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="md-img-box-gallery box-gallery-img">
+                                                        <a href="images/gallery-list-img-4.jpg" data-fancybox="gallery-list-box">
+                                                            <img src="images/gallery-list-img-4.jpg" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="sm-img-box-gallery box-gallery-img">
+                                                        <a href="images/gallery-list-img-5.jpg" data-fancybox="gallery-list-box">
+                                                            <img src="images/gallery-list-img-5.jpg" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                        <div class="gallery-list-box-col">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="lg-img-box-gallery box-gallery-img">
+                                                        <a href="images/gallery-list-img-6.jpg" data-fancybox="gallery-list-box">
+                                                            <img src="images/gallery-list-img-6.jpg" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                        <div class="gallery-list-box-col">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="sm-img-box-gallery box-gallery-img">
+                                                        <a href="images/gallery-list-img-7.jpg" data-fancybox="gallery-list-box">
+                                                            <img src="images/gallery-list-img-7.jpg" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="md-img-box-gallery box-gallery-img">
+                                                        <a href="images/gallery-list-img-8.jpg" data-fancybox="gallery-list-box">
+                                                            <img src="images/gallery-list-img-8.jpg" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="entrance-test-fixd-btn">
+            <a href="javascript:void(0)">Entrance Test</a>
+        </div>
+        <div class="bottom-btn-list">
+            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#myModalApply">Apply</a>
+            <a href="javascript:void(0)">Chat</a>
+        </div>
+        <footer class="footer-con school-footer-con">
+            <div class="container-fluid footer-top-con section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 align-self-center">
+                            <div class="footer-link-and-text-con">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3">
+                                        <div class="footer-logo-con footer-logo-school-sm">
+                                            <a href="school-of-engineering.html"><img src="images/logo-soe-footer.png" /></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3 col-lg-4 col-xl-3">
+                                        <div class="footer-top-col">
+                                            <p class="bold-text mb-2"><span> Know More </span></p>
+                                            <div class="footer-logo-con footer-logo-sm">
+                                                <a href="index.html"><img src="images/footer-logo.png" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3 col-lg-4 col-xl-3">
+                                        <div class="footer-top-col">
+                                            <p class="bold-text mb-2"><span> Quick Links </span></p>
+                                            <div class="footer-page-menu">
+                                                <div class="footer-page-menu-ul">
+                                                    <ul>
+                                                        <li><a href="javascript:void(0)">Admissions</a></li>
+                                                        <li><a href="javascript:void(0)">Faculty</a></li>
+                                                        <li><a href="javascript:void(0)">Refund Policy</a></li>
+                                                        <li><a href="javascript:void(0)">FAQs</a></li>
+                                                        <li><a href="javascript:void(0)">Aurum</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                                        <div class="footer-top-col">
+                                            <p class="bold-text mb-2">Ajeenkya DY Patil University</p>
+                                            <p class="mb-3">Charoli Bk.via Lohegaon, District Pune - 412105, Maharashtra , India</p>
+                                            <p><a href="tel:+919881199224">+91-9881199224 </a></p>
+                                            <p><a href="mailto:soe.info@adypu.edi.in">soe.info@adypu.edi.in</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid footer-bottom-con">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9 align-self-center">
+                            <div class="copyright-text">
+                                2023 &copy; ADYPU. All rights reserved.
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 align-self-center">
+                            <div class="social-icon-con">
+                                <div class="social-icon-ul">
+                                    <ul>
+                                        <li><a href="javascript:void(0)">In</a></li>
+                                        <li><a href="javascript:void(0)">Fb</a></li>
+                                        <li><a href="javascript:void(0)">Tw</a></li>
+                                        <li><a href="javascript:void(0)">Yt</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custome.js"></script>
+    </body>
+</html>
+<div class="modal fade model-fixd-theme" id="myModalApply">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4>Application Form 2023-24</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="form-con">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Full Name*</label>
+                                <input type="text" class="form-control" placeholder="Enter Full Name" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="form-group">
+                                <label>Email ID*</label>
+                                <input type="email" class="form-control" placeholder="Enter Email ID" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="form-group">
+                                <label>Mobile No.*</label>
+                                <input type="email" class="form-control" placeholder="Enter Mobile No." />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="form-group">
+                                <label>State*</label>
+                                <select class="form-select form-control">
+                                    <option>Select State</option>
+                                    <option>State 1</option>
+                                    <option>State 2</option>
+                                    <option>State 3</option>
+                                    <option>State 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="form-group">
+                                <label>Level of Program*</label>
+                                <select class="form-select form-control">
+                                    <option>Select Level of Program</option>
+                                    <option>State 1</option>
+                                    <option>State 2</option>
+                                    <option>State 3</option>
+                                    <option>State 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="form-group">
+                                <label>School*</label>
+                                <select class="form-select form-control">
+                                    <option>Select School</option>
+                                    <option>State 1</option>
+                                    <option>State 2</option>
+                                    <option>State 3</option>
+                                    <option>State 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="form-group">
+                                <label>Program*</label>
+                                <select class="form-select form-control">
+                                    <option>Select Level of Program</option>
+                                    <option>State 1</option>
+                                    <option>State 2</option>
+                                    <option>State 3</option>
+                                    <option>State 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>I agree to receive information regarding my submitted application by signing up on ADYPU*</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="btn-con two-btn-con">
+                                <a href="javascript:void(0)" class="btn mr-2">Register Now</a>
+                                <a href="javascript:void(0)" class="btn">Existing User? Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

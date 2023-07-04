@@ -26,7 +26,10 @@
     display: inline-flex;
     justify-content: space-between;
 }
-.school-nav .header-menu-top-ul, .school-nav .header-menu-bottom-ul {justify-content: end;}
+.school-nav .header-menu-top-ul,
+.school-nav .header-menu-bottom-ul {
+    justify-content: end;
+}
 .header-menu-top-ul ul {
     margin: 0;
     padding: 0;
@@ -36,7 +39,7 @@
 }
 .header-menu-top-ul ul li {
     margin: 0;
-    padding: 0 15px;
+    padding: 0 27px;
     list-style: none;
     width: auto;
     display: inline-block;
@@ -49,12 +52,13 @@
 }
 .header-menu-top-ul ul li a {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
     line-height: normal;
     font-family: "Inter", sans-serif;
     padding: 15px 0;
     width: auto;
     display: inline-block;
+    font-weight: 500;
 }
 
 .header-menu-bottom-ul {
@@ -72,15 +76,25 @@
 }
 .header-menu-bottom-ul ul li {
     margin: 0;
-    padding: 0 15px;
+    padding: 0 27px;
     list-style: none;
     width: auto;
     display: inline-block;
 }
-.school-nav .header-menu-bottom-ul ul li {position: relative;}
-.school-nav .sub-menu-con {min-width: 200px; left: -15px !important;}
-.school-nav .sub-menu-ul {padding: 0 30px; }
-.school-nav .header-menu-bottom-ul .sub-menu-ul ul li a {color:#4D4D4D; padding: 0 0 10px;}
+.school-nav .header-menu-bottom-ul ul li {
+    position: relative;
+}
+.school-nav .sub-menu-con {
+    min-width: 200px;
+    left: -15px !important;
+}
+.school-nav .sub-menu-ul {
+    padding: 0 30px;
+}
+.school-nav .header-menu-bottom-ul .sub-menu-ul ul li a {
+    color: #4d4d4d;
+    padding: 0 0 10px;
+}
 .header-menu-bottom-ul ul li:first-child {
     padding-left: 0;
 }
@@ -89,14 +103,27 @@
 }
 .header-menu-bottom-ul ul li a {
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     line-height: normal;
     font-family: "Inter", sans-serif;
-    padding: 15px 0;
+    padding: 14px 0;
     width: auto;
     display: inline-block;
+    font-weight: 500;
+    position: relative;
 }
-
+.header-menu-bottom-ul > ul > li > a::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.header-menu-bottom-ul ul li.active > a::after {
+    background: #b82426;
+}
 .header-menu-bottom-ul .sub-menu-ul {
     position: relative;
     width: 100%;
@@ -110,7 +137,7 @@
 }
 .header-menu-bottom-ul .sub-menu-ul ul li {
     margin: 0;
-    padding: 4px 0;
+    padding: 6px 0;
     list-style: none;
     width: 100%;
     display: inline-block;
@@ -147,8 +174,25 @@
 
 .sub-menu-con h6 {
     font-family: "Inter", sans-serif;
+    font-weight: bold;
 }
-
+.sub-menu-col p{
+    color: #000000;
+}
+@media only screen and (min-width: 1400px) {
+    .header-menu-top-ul ul li {
+        padding: 0 42px;
+    }
+    .header-menu-bottom-ul ul li {
+        padding: 0 42px;
+    }
+    .school-nav .header-menu-bottom-ul ul li {
+        padding: 0 30px;
+    }
+    .school-nav .header-menu-top-ul ul li {
+        padding: 0 30px;
+    }
+}
 @media only screen and (min-width: 1200px) {
     .navbar-expand-xl .navbar-collapse {
         display: none !important;
@@ -169,9 +213,12 @@
         display: inline-block;
         padding: 0;
         z-index: 9;
-        height: 102px;
+        height: 108px;
     }
-    .school-nav.header-con .navbar-brand { left: auto; right: auto;}
+    .school-nav.header-con .navbar-brand {
+        left: auto;
+        right: auto;
+    }
     .header-con .navbar-brand .logo-con {
         background: #ffffff;
         border: 0.5px solid #edebeb;
@@ -188,8 +235,19 @@
         text-align: center;
         margin: 0 auto;
     }
-    .school-nav.header-con .navbar-brand {width: auto;}
-    .school-nav.header-con .navbar-brand .logo-con img {height: 64px; width: auto;}
+    .school-nav.header-con .navbar-brand {
+        width: auto;
+    }
+    .school-nav.header-con .navbar-brand .logo-con img {
+        height: 64px;
+        width: auto;
+    }
+    .school-nav .header-menu-bottom-ul ul li {
+        padding: 0 18px;
+    }
+    .school-nav .header-menu-top-ul ul li {
+        padding: 0 18px;
+    }
 }
 @media only screen and (max-width: 1199px) {
     .menu-header-desk {
@@ -198,6 +256,9 @@
     .navbar-brand {
         padding: 15px;
         margin: 0;
+    }
+    .school-nav .navbar-brand {
+        padding: 25px 15px;
     }
     .navbar-brand img {
         width: 180px;
@@ -216,7 +277,7 @@
         left: 0;
         background: #b82426;
         width: 100%;
-        top: 84px;
+        top: 83px;
         padding-top: 0;
         right: 0;
     }
@@ -228,7 +289,7 @@
         z-index: 9;
         position: relative;
         border: 0;
-        height: calc(100vh - 84px);
+        height: calc(100vh - 83px);
     }
     .respons-menu-ul ul {
         margin: 0;
@@ -253,5 +314,9 @@
         width: 100%;
         display: inline-block;
         border-bottom: 1px solid #fff;
+    }
+    .school-nav .navbar-brand img {
+        width: 200px;
+        max-width: 100%;
     }
 }
